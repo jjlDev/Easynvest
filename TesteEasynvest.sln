@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteEasynvest.Application", "TesteEasynvest\TesteEasynvest.Application.csproj", "{6B684DCD-7686-4ED1-A2BF-DAAF082D268B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteEasynvest.Application", "TesteEasynvest\TesteEasynvest.Application.csproj", "{6B684DCD-7686-4ED1-A2BF-DAAF082D268B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteEasynvest.Domain", "TesteEasynvest.Domain\TesteEasynvest.Domain.csproj", "{FB827E98-195A-40BA-B800-8D9EC24E40D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteEasynvest.Domain", "TesteEasynvest.Domain\TesteEasynvest.Domain.csproj", "{FB827E98-195A-40BA-B800-8D9EC24E40D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteEasynvest.Service", "TesteEasynvest.Service\TesteEasynvest.Service.csproj", "{E67089FA-B2F6-47ED-A28B-681099AEFFDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteEasynvest.Service", "TesteEasynvest.Service\TesteEasynvest.Service.csproj", "{E67089FA-B2F6-47ED-A28B-681099AEFFDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteEasynvest.Infra.CrossCutting", "TesteEasynvest.Infra\TesteEasynvest.Infra.CrossCutting.csproj", "{87FC41DF-0A44-4116-8AF2-F6B40F4E55C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteEasynvest.Infra.CrossCutting", "TesteEasynvest.Infra\TesteEasynvest.Infra.CrossCutting.csproj", "{87FC41DF-0A44-4116-8AF2-F6B40F4E55C0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{4C41FB0D-E637-47B3-932E-A9ABFF02009D}"
 EndProject
@@ -23,7 +23,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - CrossCutting", "4.1 -
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - Cache", "4.2 - Cache", "{CB260058-26F2-45FC-A56E-A542D4F78F59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteEasynvest.Infra.Caching", "TesteEasynvest.Infra.Caching\TesteEasynvest.Infra.Caching.csproj", "{08F1CAF6-F16A-481C-ADA6-810F747E99AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteEasynvest.Infra.Caching", "TesteEasynvest.Infra.Caching\TesteEasynvest.Infra.Caching.csproj", "{08F1CAF6-F16A-481C-ADA6-810F747E99AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workspace", "Workspace\Workspace.csproj", "{3E1A0FB3-4F08-4519-83E0-067604D31CA7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{08F1CAF6-F16A-481C-ADA6-810F747E99AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08F1CAF6-F16A-481C-ADA6-810F747E99AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08F1CAF6-F16A-481C-ADA6-810F747E99AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E1A0FB3-4F08-4519-83E0-067604D31CA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E1A0FB3-4F08-4519-83E0-067604D31CA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E1A0FB3-4F08-4519-83E0-067604D31CA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E1A0FB3-4F08-4519-83E0-067604D31CA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

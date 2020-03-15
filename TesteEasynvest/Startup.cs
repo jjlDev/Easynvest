@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -10,6 +11,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using TesteEasynvest.Domain.Interfaces;
+using TesteEasynvest.Domain.Model;
+using TesteEasynvest.Infra;
+using TesteEasynvest.Service;
 
 namespace TesteEasynvest
 {
@@ -26,6 +31,15 @@ namespace TesteEasynvest
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddTransient<IInvestimentoService, InvestimentoService>();
+            services.AddTransient<HttpClient>();
+            services.AddTransient<List<IInvestimento>>();
+            services.AddTransient<Investimentos>();
+            services.AddTransient<InvestimentosServiceAgent>();
+            
+
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

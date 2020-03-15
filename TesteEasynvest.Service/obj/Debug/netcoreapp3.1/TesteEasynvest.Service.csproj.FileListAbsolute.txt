@@ -1,0 +1,13 @@
+C:\Users\Jhow\source\repos\Easynvest\TesteEasynvest.Service\bin\Debug\netcoreapp3.1\TesteEasynvest.Service.deps.json
+C:\Users\Jhow\source\repos\Easynvest\TesteEasynvest.Service\bin\Debug\netcoreapp3.1\TesteEasynvest.Service.dll
+C:\Users\Jhow\source\repos\Easynvest\TesteEasynvest.Service\bin\Debug\netcoreapp3.1\TesteEasynvest.Service.pdb
+C:\Users\Jhow\source\repos\Easynvest\TesteEasynvest.Service\bin\Debug\netcoreapp3.1\TesteEasynvest.Domain.dll
+C:\Users\Jhow\source\repos\Easynvest\TesteEasynvest.Service\bin\Debug\netcoreapp3.1\TesteEasynvest.Infra.CrossCutting.dll
+C:\Users\Jhow\source\repos\Easynvest\TesteEasynvest.Service\bin\Debug\netcoreapp3.1\TesteEasynvest.Domain.pdb
+C:\Users\Jhow\source\repos\Easynvest\TesteEasynvest.Service\bin\Debug\netcoreapp3.1\TesteEasynvest.Infra.CrossCutting.pdb
+C:\Users\Jhow\source\repos\Easynvest\TesteEasynvest.Service\obj\Debug\netcoreapp3.1\TesteEasynvest.Service.csprojAssemblyReference.cache
+C:\Users\Jhow\source\repos\Easynvest\TesteEasynvest.Service\obj\Debug\netcoreapp3.1\TesteEasynvest.Service.AssemblyInfoInputs.cache
+C:\Users\Jhow\source\repos\Easynvest\TesteEasynvest.Service\obj\Debug\netcoreapp3.1\TesteEasynvest.Service.AssemblyInfo.cs
+C:\Users\Jhow\source\repos\Easynvest\TesteEasynvest.Service\obj\Debug\netcoreapp3.1\TesteEasynvest.Service.csproj.CopyComplete
+C:\Users\Jhow\source\repos\Easynvest\TesteEasynvest.Service\obj\Debug\netcoreapp3.1\TesteEasynvest.Service.dll
+C:\Users\Jhow\source\repos\Easynvest\TesteEasynvest.Service\obj\Debug\netcoreapp3.1\TesteEasynvest.Service.pdb

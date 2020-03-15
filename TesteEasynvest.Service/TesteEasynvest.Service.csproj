@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TesteEasynvest.Domain\TesteEasynvest.Domain.csproj" />
+    <ProjectReference Include="..\TesteEasynvest.Infra\TesteEasynvest.Infra.CrossCutting.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,0 +1,3 @@
+C:\Users\Jhow\source\repos\Easynvest\TesteEasynvest.Infra\obj\Debug\netcoreapp3.1\TesteEasynvest.Infra.ExternalAccess.csprojAssemblyReference.cache
+C:\Users\Jhow\source\repos\Easynvest\TesteEasynvest.Infra\obj\Debug\netcoreapp3.1\TesteEasynvest.Infra.ExternalAccess.AssemblyInfoInputs.cache
+C:\Users\Jhow\source\repos\Easynvest\TesteEasynvest.Infra\obj\Debug\netcoreapp3.1\TesteEasynvest.Infra.ExternalAccess.AssemblyInfo.cs
