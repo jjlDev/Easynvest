@@ -14,18 +14,14 @@ namespace Workspace
 
         static void Main(string[] args)
         {
-            Investimentos carteira = new Investimentos();
-            List<IInvestimento> investimentos = new List<IInvestimento>();
+            DateTime dataatual = DateTime.Now;
+            DateTime vencimento = DateTime.Now.AddMonths(2);
 
-            HttpClient client = new HttpClient();
+            TimeSpan resta = vencimento - dataatual;
 
-            InvestimentosServiceAgent agent = new InvestimentosServiceAgent(investimentos, client);
-
-            var teste = agent.ObtemInvestimentosAsync();
-            carteira.investimentos = teste.Result;
-
-            Console.ReadKey();
-
+            
+            var tes = dataatual >= vencimento.AddMonths(-3) && dataatual <= vencimento;
+            
         }
     }
 

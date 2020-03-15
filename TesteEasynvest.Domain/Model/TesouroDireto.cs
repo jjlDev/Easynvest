@@ -35,13 +35,13 @@ namespace TesteEasynvest.Domain.Model
             decimal resgate = 0;
 
             int diasParaVencimento = (this.vencimento - this.dataDeCompra).Days;
-            int mesesParaVencimento = (this.vencimento.Month - this.dataDeCompra.Month);
+            DateTime dataAtual = DateTime.Now;
             
             int posicaoAtual = (DateTime.Now - this.dataDeCompra).Days;
             int mesAtual = DateTime.Now.Month;
 
 
-            if (mesAtual <= mesesParaVencimento && mesAtual >= mesesParaVencimento - 3)
+            if (dataAtual >= vencimento.AddMonths(-3) && dataAtual <= vencimento)
             {
                 //estar no periodo de tres meses para vencer
                 //Investimento com até 3 meses para vencer: Perde 6% do valor investido
