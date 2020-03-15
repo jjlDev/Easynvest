@@ -17,9 +17,11 @@ namespace TesteEasynvest.Domain.Model
         public string tipo { get; set; }
         public string nome { get; set; }
 
+        private double porcentagemIR = 0.10;
+
         public decimal Rentabilidade() => (valorTotal - valorInvestido);
 
-        public decimal CalcularIR() => Rentabilidade() * Convert.ToDecimal(0.10);
+        public decimal CalcularIR() => CalculosInvestimentos.CalcularIR(Rentabilidade(), porcentagemIR);
 
         public decimal RetornarTotal() => valorTotal;
         
@@ -32,33 +34,7 @@ namespace TesteEasynvest.Domain.Model
         public decimal CalcularResgate()
         {
 
-            decimal resgate = 0;
-
-            int diasParaVencimento = (this.vencimento - this.dataDeCompra).Days;
-            DateTime dataAtual = DateTime.Now;
-            
-            int posicaoAtual = (DateTime.Now - this.dataDeCompra).Days;
-            int mesAtual = DateTime.Now.Month;
-
-
-            if (dataAtual >= vencimento.AddMonths(-3) && dataAtual <= vencimento)
-            {
-                //estar no periodo de tres meses para vencer
-                //Investimento com até 3 meses para vencer: Perde 6% do valor investido
-                resgate = this.valorTotal - (valorTotal * Convert.ToDecimal(0.06));
-            }
-            else if (posicaoAtual > (diasParaVencimento / 2))
-            {
-                //Investimento com mais da metade do tempo em custódia: Perde 15% do valor investido
-                resgate = this.valorTotal - (valorTotal * Convert.ToDecimal(0.15));
-            }
-            else 
-            {
-                //Outros: Perde 30% do valor investido
-                resgate = this.valorTotal - (valorTotal * Convert.ToDecimal(0.30));
-            }
-
-            return resgate;
+            return CalculosInvestimentos.CalcularResgate(this.vencimento, this.dataDeCompra, this.valorTotal);
 
 
 
