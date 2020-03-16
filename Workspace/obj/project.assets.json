@@ -1829,16 +1829,6 @@
           "bin/placeholder/TesteEasynvest.Domain.dll": {}
         }
       },
-      "TesteEasynvest.Infra.Caching/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/TesteEasynvest.Infra.Caching.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/TesteEasynvest.Infra.Caching.dll": {}
-        }
-      },
       "TesteEasynvest.Infra.CrossCutting/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -6077,11 +6067,6 @@
       "path": "../TesteEasynvest.Domain/TesteEasynvest.Domain.csproj",
       "msbuildProject": "../TesteEasynvest.Domain/TesteEasynvest.Domain.csproj"
     },
-    "TesteEasynvest.Infra.Caching/1.0.0": {
-      "type": "project",
-      "path": "../TesteEasynvest.Infra.Caching/TesteEasynvest.Infra.Caching.csproj",
-      "msbuildProject": "../TesteEasynvest.Infra.Caching/TesteEasynvest.Infra.Caching.csproj"
-    },
     "TesteEasynvest.Infra.CrossCutting/1.0.0": {
       "type": "project",
       "path": "../TesteEasynvest.Infra/TesteEasynvest.Infra.CrossCutting.csproj",
@@ -6098,7 +6083,6 @@
       "Newtonsoft.Json >= 12.0.3",
       "TesteEasynvest.Application >= 1.0.0",
       "TesteEasynvest.Domain >= 1.0.0",
-      "TesteEasynvest.Infra.Caching >= 1.0.0",
       "TesteEasynvest.Infra.CrossCutting >= 1.0.0",
       "TesteEasynvest.Service >= 1.0.0"
     ]
@@ -6138,9 +6122,6 @@
           "projectReferences": {
             "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Domain\\TesteEasynvest.Domain.csproj": {
               "projectPath": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Domain\\TesteEasynvest.Domain.csproj"
-            },
-            "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Infra.Caching\\TesteEasynvest.Infra.Caching.csproj": {
-              "projectPath": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Infra.Caching\\TesteEasynvest.Infra.Caching.csproj"
             },
             "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Infra\\TesteEasynvest.Infra.CrossCutting.csproj": {
               "projectPath": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Infra\\TesteEasynvest.Infra.CrossCutting.csproj"

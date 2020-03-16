@@ -36,8 +36,8 @@ namespace TesteEasynvest
             services.AddTransient<List<IInvestimento>>();
             services.AddTransient<Investimentos>();
             services.AddTransient<InvestimentosServiceAgent>();
-            
 
+            services.AddMemoryCache();
 
 
         }
