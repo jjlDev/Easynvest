@@ -97,11 +97,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest.Service\\TesteEasynvest.Service.csproj",
+      "projectUniqueName": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Service\\TesteEasynvest.Service.csproj",
       "projectName": "TesteEasynvest.Service",
-      "projectPath": "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest.Service\\TesteEasynvest.Service.csproj",
+      "projectPath": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Service\\TesteEasynvest.Service.csproj",
       "packagesPath": "C:\\Users\\Jhow\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest.Service\\obj\\",
+      "outputPath": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -122,11 +122,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest.Domain\\TesteEasynvest.Domain.csproj": {
-              "projectPath": "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest.Domain\\TesteEasynvest.Domain.csproj"
+            "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Domain\\TesteEasynvest.Domain.csproj": {
+              "projectPath": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Domain\\TesteEasynvest.Domain.csproj"
             },
-            "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest.Infra\\TesteEasynvest.Infra.CrossCutting.csproj": {
-              "projectPath": "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest.Infra\\TesteEasynvest.Infra.CrossCutting.csproj"
+            "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Infra\\TesteEasynvest.Infra.CrossCutting.csproj": {
+              "projectPath": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Infra\\TesteEasynvest.Infra.CrossCutting.csproj"
             }
           }
         }
