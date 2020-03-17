@@ -13,7 +13,7 @@
     <ProjectReference Include="..\TesteEasynvest.Domain\TesteEasynvest.Domain.csproj" />
     <ProjectReference Include="..\TesteEasynvest.Infra\TesteEasynvest.Infra.CrossCutting.csproj" />
     <ProjectReference Include="..\TesteEasynvest.Service\TesteEasynvest.Service.csproj" />
-    <ProjectReference Include="..\TesteEasynvest\TesteEasynvest.Application.csproj" />
+    <ProjectReference Include="..\TesteEasynvest\TesteEasynvest.Api.csproj" />
   </ItemGroup>
 
 </Project>

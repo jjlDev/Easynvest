@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteEasynvest.Application", "TesteEasynvest\TesteEasynvest.Application.csproj", "{6B684DCD-7686-4ED1-A2BF-DAAF082D268B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteEasynvest.Api", "TesteEasynvest\TesteEasynvest.Api.csproj", "{6B684DCD-7686-4ED1-A2BF-DAAF082D268B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteEasynvest.Domain", "TesteEasynvest.Domain\TesteEasynvest.Domain.csproj", "{FB827E98-195A-40BA-B800-8D9EC24E40D4}"
 EndProject

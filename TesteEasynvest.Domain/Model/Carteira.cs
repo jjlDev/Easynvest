@@ -5,7 +5,7 @@ using TesteEasynvest.Domain.Interfaces;
 
 namespace TesteEasynvest.Domain.Model
 {
-    public class Investimentos
+    public class Carteira
     {
         public decimal ValorTotal { get => this.valorTotal(); }
         public List<IInvestimento> investimentos { get; set; }

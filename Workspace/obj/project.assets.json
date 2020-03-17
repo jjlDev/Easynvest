@@ -1798,7 +1798,7 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "TesteEasynvest.Application/1.0.0": {
+      "TesteEasynvest.Api/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -1807,10 +1807,10 @@
           "TesteEasynvest.Service": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/TesteEasynvest.Application.dll": {}
+          "bin/placeholder/TesteEasynvest.Api.dll": {}
         },
         "runtime": {
-          "bin/placeholder/TesteEasynvest.Application.dll": {}
+          "bin/placeholder/TesteEasynvest.Api.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -6057,10 +6057,10 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "TesteEasynvest.Application/1.0.0": {
+    "TesteEasynvest.Api/1.0.0": {
       "type": "project",
-      "path": "../TesteEasynvest/TesteEasynvest.Application.csproj",
-      "msbuildProject": "../TesteEasynvest/TesteEasynvest.Application.csproj"
+      "path": "../TesteEasynvest/TesteEasynvest.Api.csproj",
+      "msbuildProject": "../TesteEasynvest/TesteEasynvest.Api.csproj"
     },
     "TesteEasynvest.Domain/1.0.0": {
       "type": "project",
@@ -6081,7 +6081,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Newtonsoft.Json >= 12.0.3",
-      "TesteEasynvest.Application >= 1.0.0",
+      "TesteEasynvest.Api >= 1.0.0",
       "TesteEasynvest.Domain >= 1.0.0",
       "TesteEasynvest.Infra.CrossCutting >= 1.0.0",
       "TesteEasynvest.Service >= 1.0.0"
@@ -6129,8 +6129,8 @@
             "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Service\\TesteEasynvest.Service.csproj": {
               "projectPath": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Service\\TesteEasynvest.Service.csproj"
             },
-            "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest\\TesteEasynvest.Application.csproj": {
-              "projectPath": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest\\TesteEasynvest.Application.csproj"
+            "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest\\TesteEasynvest.Api.csproj": {
+              "projectPath": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest\\TesteEasynvest.Api.csproj"
             }
           }
         }

@@ -1,7 +1,6 @@
 C:\Users\Jhow\source\repos\Easynvest\Workspace\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\Jhow\source\repos\Easynvest\Workspace\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\Jhow\source\repos\Easynvest\Workspace\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
-C:\Users\Jhow\source\repos\Easynvest\Workspace\bin\Debug\netcoreapp3.1\TesteEasynvest.Application.exe
 C:\Users\Jhow\source\repos\Easynvest\Workspace\bin\Debug\netcoreapp3.1\Workspace.exe
 C:\Users\Jhow\source\repos\Easynvest\Workspace\bin\Debug\netcoreapp3.1\Workspace.deps.json
 C:\Users\Jhow\source\repos\Easynvest\Workspace\bin\Debug\netcoreapp3.1\Workspace.runtimeconfig.json
@@ -9,16 +8,12 @@ C:\Users\Jhow\source\repos\Easynvest\Workspace\bin\Debug\netcoreapp3.1\Workspace
 C:\Users\Jhow\source\repos\Easynvest\Workspace\bin\Debug\netcoreapp3.1\Workspace.dll
 C:\Users\Jhow\source\repos\Easynvest\Workspace\bin\Debug\netcoreapp3.1\Workspace.pdb
 C:\Users\Jhow\source\repos\Easynvest\Workspace\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-C:\Users\Jhow\source\repos\Easynvest\Workspace\bin\Debug\netcoreapp3.1\TesteEasynvest.Application.dll
 C:\Users\Jhow\source\repos\Easynvest\Workspace\bin\Debug\netcoreapp3.1\TesteEasynvest.Domain.dll
-C:\Users\Jhow\source\repos\Easynvest\Workspace\bin\Debug\netcoreapp3.1\TesteEasynvest.Infra.Caching.dll
 C:\Users\Jhow\source\repos\Easynvest\Workspace\bin\Debug\netcoreapp3.1\TesteEasynvest.Infra.CrossCutting.dll
 C:\Users\Jhow\source\repos\Easynvest\Workspace\bin\Debug\netcoreapp3.1\TesteEasynvest.Service.dll
 C:\Users\Jhow\source\repos\Easynvest\Workspace\bin\Debug\netcoreapp3.1\TesteEasynvest.Domain.pdb
-C:\Users\Jhow\source\repos\Easynvest\Workspace\bin\Debug\netcoreapp3.1\TesteEasynvest.Infra.Caching.pdb
 C:\Users\Jhow\source\repos\Easynvest\Workspace\bin\Debug\netcoreapp3.1\TesteEasynvest.Infra.CrossCutting.pdb
 C:\Users\Jhow\source\repos\Easynvest\Workspace\bin\Debug\netcoreapp3.1\TesteEasynvest.Service.pdb
-C:\Users\Jhow\source\repos\Easynvest\Workspace\bin\Debug\netcoreapp3.1\TesteEasynvest.Application.pdb
 C:\Users\Jhow\source\repos\Easynvest\Workspace\obj\Debug\netcoreapp3.1\Workspace.csprojAssemblyReference.cache
 C:\Users\Jhow\source\repos\Easynvest\Workspace\obj\Debug\netcoreapp3.1\Workspace.AssemblyInfoInputs.cache
 C:\Users\Jhow\source\repos\Easynvest\Workspace\obj\Debug\netcoreapp3.1\Workspace.AssemblyInfo.cs
@@ -97,3 +92,6 @@ C:\Users\Jhow\source\repos\Easynvest\Workspace\bin\Debug\netcoreapp3.1\ru\Micros
 C:\Users\Jhow\source\repos\Easynvest\Workspace\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Jhow\source\repos\Easynvest\Workspace\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Jhow\source\repos\Easynvest\Workspace\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Jhow\source\repos\Easynvest\Workspace\bin\Debug\netcoreapp3.1\TesteEasynvest.Api.exe
+C:\Users\Jhow\source\repos\Easynvest\Workspace\bin\Debug\netcoreapp3.1\TesteEasynvest.Api.dll
+C:\Users\Jhow\source\repos\Easynvest\Workspace\bin\Debug\netcoreapp3.1\TesteEasynvest.Api.pdb

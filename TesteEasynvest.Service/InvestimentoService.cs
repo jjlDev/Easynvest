@@ -9,10 +9,10 @@ namespace TesteEasynvest.Service
     public class InvestimentoService : IInvestimentoService
 
     {
-        Investimentos carteira;
-        InvestimentosServiceAgent serviceAgent;
+        Carteira carteira;
+        HttpServiceAgent serviceAgent;
 
-        public InvestimentoService(Investimentos _carteira, InvestimentosServiceAgent _serviceAgent)
+        public InvestimentoService(Carteira _carteira, HttpServiceAgent _serviceAgent)
         {
             carteira = _carteira;
             serviceAgent = _serviceAgent;
@@ -34,12 +34,12 @@ namespace TesteEasynvest.Service
 
         }
 
-        private InvestimentosResponse mapInvestimentos(Investimentos carteira)
+        private InvestimentosResponse mapInvestimentos(Carteira carteira)
         {
 
-            InvestimentosResponse inv = new InvestimentosResponse();
+            InvestimentosResponse carteira = new InvestimentosResponse();
             InfoInvestimentosResponse info;
-            inv.valorTotal = carteira.ValorTotal;
+            carteira.valorTotal = carteira.ValorTotal;
 
             foreach (var item in carteira.investimentos)
             {
@@ -52,13 +52,13 @@ namespace TesteEasynvest.Service
                 info.Ir = item.CalcularIR();
                 info.valorResgate = item.CalcularResgate();
 
-                inv.investimentos.Add(info);
+                carteira.investimentos.Add(info);
             }
             
 
 
 
-            return inv;
+            return carteira;
 
         }
 

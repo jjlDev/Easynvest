@@ -198,12 +198,12 @@
         }
       }
     },
-    "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest\\TesteEasynvest.Application.csproj": {
+    "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest\\TesteEasynvest.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest\\TesteEasynvest.Application.csproj",
-        "projectName": "TesteEasynvest.Application",
-        "projectPath": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest\\TesteEasynvest.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest\\TesteEasynvest.Api.csproj",
+        "projectName": "TesteEasynvest.Api",
+        "projectPath": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest\\TesteEasynvest.Api.csproj",
         "packagesPath": "C:\\Users\\Jhow\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest\\obj\\",
         "projectStyle": "PackageReference",
@@ -308,8 +308,8 @@
               "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Service\\TesteEasynvest.Service.csproj": {
                 "projectPath": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Service\\TesteEasynvest.Service.csproj"
               },
-              "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest\\TesteEasynvest.Application.csproj": {
-                "projectPath": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest\\TesteEasynvest.Application.csproj"
+              "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest\\TesteEasynvest.Api.csproj": {
+                "projectPath": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest\\TesteEasynvest.Api.csproj"
               }
             }
           }

@@ -6070,9 +6070,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest\\TesteEasynvest.Application.csproj",
-      "projectName": "TesteEasynvest.Application",
-      "projectPath": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest\\TesteEasynvest.Application.csproj",
+      "projectUniqueName": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest\\TesteEasynvest.Api.csproj",
+      "projectName": "TesteEasynvest.Api",
+      "projectPath": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest\\TesteEasynvest.Api.csproj",
       "packagesPath": "C:\\Users\\Jhow\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest\\obj\\",
       "projectStyle": "PackageReference",

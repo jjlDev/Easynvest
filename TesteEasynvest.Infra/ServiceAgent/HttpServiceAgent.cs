@@ -7,13 +7,13 @@ using TesteEasynvest.Domain.Responses;
 
 namespace TesteEasynvest.Infra
 {
-    public class InvestimentosServiceAgent
+    public class HttpServiceAgent
     {
 
         List<IInvestimento> investimentos;
         private static HttpClient httpClient;
 
-        public InvestimentosServiceAgent(List<IInvestimento> _investimentos, HttpClient _httpClient)
+        public HttpServiceAgent(List<IInvestimento> _investimentos, HttpClient _httpClient)
         {
             investimentos = _investimentos;
             httpClient = _httpClient;

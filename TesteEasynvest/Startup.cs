@@ -34,8 +34,8 @@ namespace TesteEasynvest
             services.AddTransient<IInvestimentoService, InvestimentoService>();
             services.AddTransient<HttpClient>();
             services.AddTransient<List<IInvestimento>>();
-            services.AddTransient<Investimentos>();
-            services.AddTransient<InvestimentosServiceAgent>();
+            services.AddTransient<Carteira>();
+            services.AddTransient<HttpServiceAgent>();
 
             services.AddMemoryCache();
 
