@@ -1,7 +1,0 @@
-C:\Users\Jhow\source\repos\Easynvest\TesteEasynvest.Infra.Caching\bin\Debug\netcoreapp3.1\TesteEasynvest.Infra.Caching.deps.json
-C:\Users\Jhow\source\repos\Easynvest\TesteEasynvest.Infra.Caching\bin\Debug\netcoreapp3.1\TesteEasynvest.Infra.Caching.dll
-C:\Users\Jhow\source\repos\Easynvest\TesteEasynvest.Infra.Caching\bin\Debug\netcoreapp3.1\TesteEasynvest.Infra.Caching.pdb
-C:\Users\Jhow\source\repos\Easynvest\TesteEasynvest.Infra.Caching\obj\Debug\netcoreapp3.1\TesteEasynvest.Infra.Caching.AssemblyInfoInputs.cache
-C:\Users\Jhow\source\repos\Easynvest\TesteEasynvest.Infra.Caching\obj\Debug\netcoreapp3.1\TesteEasynvest.Infra.Caching.AssemblyInfo.cs
-C:\Users\Jhow\source\repos\Easynvest\TesteEasynvest.Infra.Caching\obj\Debug\netcoreapp3.1\TesteEasynvest.Infra.Caching.dll
-C:\Users\Jhow\source\repos\Easynvest\TesteEasynvest.Infra.Caching\obj\Debug\netcoreapp3.1\TesteEasynvest.Infra.Caching.pdb

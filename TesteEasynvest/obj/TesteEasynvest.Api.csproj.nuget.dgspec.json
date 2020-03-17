@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest\\TesteEasynvest.Api.csproj": {}
+    "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest\\TesteEasynvest.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Domain\\TesteEasynvest.Domain.csproj": {
+    "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest.Domain\\TesteEasynvest.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Domain\\TesteEasynvest.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest.Domain\\TesteEasynvest.Domain.csproj",
         "projectName": "TesteEasynvest.Domain",
-        "projectPath": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Domain\\TesteEasynvest.Domain.csproj",
+        "projectPath": "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest.Domain\\TesteEasynvest.Domain.csproj",
         "packagesPath": "C:\\Users\\Jhow\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -67,14 +67,14 @@
         }
       }
     },
-    "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Infra\\TesteEasynvest.Infra.CrossCutting.csproj": {
+    "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest.Infra\\TesteEasynvest.Infra.CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Infra\\TesteEasynvest.Infra.CrossCutting.csproj",
+        "projectUniqueName": "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest.Infra\\TesteEasynvest.Infra.CrossCutting.csproj",
         "projectName": "TesteEasynvest.Infra.CrossCutting",
-        "projectPath": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Infra\\TesteEasynvest.Infra.CrossCutting.csproj",
+        "projectPath": "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest.Infra\\TesteEasynvest.Infra.CrossCutting.csproj",
         "packagesPath": "C:\\Users\\Jhow\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Infra\\obj\\",
+        "outputPath": "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -95,8 +95,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Domain\\TesteEasynvest.Domain.csproj": {
-                "projectPath": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Domain\\TesteEasynvest.Domain.csproj"
+              "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest.Domain\\TesteEasynvest.Domain.csproj": {
+                "projectPath": "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest.Domain\\TesteEasynvest.Domain.csproj"
               }
             }
           }
@@ -134,14 +134,14 @@
         }
       }
     },
-    "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Service\\TesteEasynvest.Service.csproj": {
+    "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest.Service\\TesteEasynvest.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Service\\TesteEasynvest.Service.csproj",
+        "projectUniqueName": "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest.Service\\TesteEasynvest.Service.csproj",
         "projectName": "TesteEasynvest.Service",
-        "projectPath": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Service\\TesteEasynvest.Service.csproj",
+        "projectPath": "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest.Service\\TesteEasynvest.Service.csproj",
         "packagesPath": "C:\\Users\\Jhow\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Service\\obj\\",
+        "outputPath": "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -162,11 +162,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Domain\\TesteEasynvest.Domain.csproj": {
-                "projectPath": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Domain\\TesteEasynvest.Domain.csproj"
+              "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest.Domain\\TesteEasynvest.Domain.csproj": {
+                "projectPath": "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest.Domain\\TesteEasynvest.Domain.csproj"
               },
-              "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Infra\\TesteEasynvest.Infra.CrossCutting.csproj": {
-                "projectPath": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Infra\\TesteEasynvest.Infra.CrossCutting.csproj"
+              "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest.Infra\\TesteEasynvest.Infra.CrossCutting.csproj": {
+                "projectPath": "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest.Infra\\TesteEasynvest.Infra.CrossCutting.csproj"
               }
             }
           }
@@ -198,14 +198,14 @@
         }
       }
     },
-    "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest\\TesteEasynvest.Api.csproj": {
+    "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest\\TesteEasynvest.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest\\TesteEasynvest.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest\\TesteEasynvest.Api.csproj",
         "projectName": "TesteEasynvest.Api",
-        "projectPath": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest\\TesteEasynvest.Api.csproj",
+        "projectPath": "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest\\TesteEasynvest.Api.csproj",
         "packagesPath": "C:\\Users\\Jhow\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest\\obj\\",
+        "outputPath": "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -226,11 +226,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Domain\\TesteEasynvest.Domain.csproj": {
-                "projectPath": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Domain\\TesteEasynvest.Domain.csproj"
+              "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest.Domain\\TesteEasynvest.Domain.csproj": {
+                "projectPath": "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest.Domain\\TesteEasynvest.Domain.csproj"
               },
-              "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Service\\TesteEasynvest.Service.csproj": {
-                "projectPath": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Service\\TesteEasynvest.Service.csproj"
+              "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest.Service\\TesteEasynvest.Service.csproj": {
+                "projectPath": "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest.Service\\TesteEasynvest.Service.csproj"
               }
             }
           }

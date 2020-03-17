@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Domain\\TesteEasynvest.Domain.csproj": {}
+    "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest.Domain\\TesteEasynvest.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Domain\\TesteEasynvest.Domain.csproj": {
+    "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest.Domain\\TesteEasynvest.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Domain\\TesteEasynvest.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest.Domain\\TesteEasynvest.Domain.csproj",
         "projectName": "TesteEasynvest.Domain",
-        "projectPath": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Domain\\TesteEasynvest.Domain.csproj",
+        "projectPath": "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest.Domain\\TesteEasynvest.Domain.csproj",
         "packagesPath": "C:\\Users\\Jhow\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

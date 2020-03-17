@@ -6095,11 +6095,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\Workspace\\Workspace.csproj",
+      "projectUniqueName": "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\Workspace\\Workspace.csproj",
       "projectName": "Workspace",
-      "projectPath": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\Workspace\\Workspace.csproj",
+      "projectPath": "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\Workspace\\Workspace.csproj",
       "packagesPath": "C:\\Users\\Jhow\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\Workspace\\obj\\",
+      "outputPath": "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\Workspace\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -6120,17 +6120,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Domain\\TesteEasynvest.Domain.csproj": {
-              "projectPath": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Domain\\TesteEasynvest.Domain.csproj"
+            "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest.Domain\\TesteEasynvest.Domain.csproj": {
+              "projectPath": "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest.Domain\\TesteEasynvest.Domain.csproj"
             },
-            "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Infra\\TesteEasynvest.Infra.CrossCutting.csproj": {
-              "projectPath": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Infra\\TesteEasynvest.Infra.CrossCutting.csproj"
+            "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest.Infra\\TesteEasynvest.Infra.CrossCutting.csproj": {
+              "projectPath": "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest.Infra\\TesteEasynvest.Infra.CrossCutting.csproj"
             },
-            "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Service\\TesteEasynvest.Service.csproj": {
-              "projectPath": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest.Service\\TesteEasynvest.Service.csproj"
+            "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest.Service\\TesteEasynvest.Service.csproj": {
+              "projectPath": "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest.Service\\TesteEasynvest.Service.csproj"
             },
-            "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest\\TesteEasynvest.Api.csproj": {
-              "projectPath": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\TesteEasynvest\\TesteEasynvest.Api.csproj"
+            "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest\\TesteEasynvest.Api.csproj": {
+              "projectPath": "C:\\Users\\Jhow\\Source\\Repos\\Easynvest\\TesteEasynvest\\TesteEasynvest.Api.csproj"
             }
           }
         }
