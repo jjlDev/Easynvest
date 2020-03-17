@@ -27,7 +27,7 @@ namespace TesteEasynvest.Service
 
             carteira.investimentos = await serviceAgent.ObtemInvestimentosAsync();
 
-
+            
             response = mapInvestimentos(carteira);
             return response;
 
@@ -37,9 +37,9 @@ namespace TesteEasynvest.Service
         private InvestimentosResponse mapInvestimentos(Carteira carteira)
         {
 
-            InvestimentosResponse carteira = new InvestimentosResponse();
+            InvestimentosResponse investimentoResponse = new InvestimentosResponse();
             InfoInvestimentosResponse info;
-            carteira.valorTotal = carteira.ValorTotal;
+            investimentoResponse.valorTotal = carteira.ValorTotal;
 
             foreach (var item in carteira.investimentos)
             {
@@ -52,13 +52,13 @@ namespace TesteEasynvest.Service
                 info.Ir = item.CalcularIR();
                 info.valorResgate = item.CalcularResgate();
 
-                carteira.investimentos.Add(info);
+                investimentoResponse.investimentos.Add(info);
             }
             
 
 
 
-            return carteira;
+            return investimentoResponse;
 
         }
 
