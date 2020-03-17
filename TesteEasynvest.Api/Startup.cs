@@ -27,9 +27,10 @@ namespace TesteEasynvest
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
+        
         public void ConfigureServices(IServiceCollection services)
         {
+            //adção das injeções de dependencia
             services.AddControllers();
             services.AddTransient<IInvestimentoService, InvestimentoService>();
             services.AddTransient<HttpClient>();
@@ -37,12 +38,13 @@ namespace TesteEasynvest
             services.AddTransient<Carteira>();
             services.AddTransient<HttpServiceAgent>();
 
+            
             services.AddMemoryCache();
 
 
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())

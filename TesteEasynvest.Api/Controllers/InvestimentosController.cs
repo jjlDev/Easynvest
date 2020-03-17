@@ -30,23 +30,28 @@ namespace TesteEasynvest.Application.Controllers
         [HttpGet]
         public async Task<InvestimentosResponse> Get()
         {
+
+            //setamos a chave do cache
             var keyCache = "investimentos_";
 
             InvestimentosResponse result;
 
-            
+            //verificamos se ja existe vamor cacheado (objeto cacheado)
             if (!memoryCache.TryGetValue(keyCache, out result))
             {
+                //caso nao tenha geramos um novo objeto de cache
                 var opcoesDoCache = new MemoryCacheEntryOptions()
                 {
+                    //seto a hora de expiração do cache
                     AbsoluteExpiration = DateTime.Now.AddSeconds(HoraUtil.SegundosParaMeiaNoite())
                 };
+                //retornamos o objeto preenchido e inserimos no cache
                 result = await service.RetornarInvestimentosAsync();
                 memoryCache.Set(keyCache, result, opcoesDoCache);
             }
 
 
-            
+            // no final retornamos o objeto preenchido seja pelo cache ou pela requisição no servidor
             return result;
 
         }

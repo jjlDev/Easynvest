@@ -10,7 +10,10 @@ namespace TesteEasynvest.Domain.Model
         public decimal ValorTotal { get => this.valorTotal(); }
         public List<IInvestimento> investimentos { get; set; }
        
-
+        //atraves da abstração dos investimentos
+        //varremos todos os objetos para fazer a somatoria dos totais.
+        //com essa abstração quando vier novos investimentos só sera preciso implementar 
+        //a interface IInvestimento e funcionara normalmente sem precisar alterar a regra do calculo
         private decimal valorTotal()
         {
 

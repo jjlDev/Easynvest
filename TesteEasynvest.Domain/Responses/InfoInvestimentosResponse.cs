@@ -8,7 +8,7 @@ namespace TesteEasynvest.Domain.Responses
     
     public class InfoInvestimentosResponse
     {
-
+        //response criado para mapeamento de retorno dos dados dos investimentos da propria api
         public string nome { get; set; }
         public decimal valorInvestido { get; set; }
         public decimal valorTotal { get; set; }

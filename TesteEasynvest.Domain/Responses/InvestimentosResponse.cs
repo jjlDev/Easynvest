@@ -7,7 +7,7 @@ namespace TesteEasynvest.Domain.Responses
 {
     public class InvestimentosResponse
     {
-
+        //este objeto e utilizado para retornar por completo os dados dos investimentos da nossa api
         public InvestimentosResponse()
         {
             investimentos = new List<InfoInvestimentosResponse>();
