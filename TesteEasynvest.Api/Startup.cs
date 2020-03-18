@@ -11,6 +11,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using TesteEasynvest.Api;
 using TesteEasynvest.Domain.Interfaces;
 using TesteEasynvest.Domain.Model;
 using TesteEasynvest.Infra;
@@ -41,7 +42,9 @@ namespace TesteEasynvest
             
             services.AddMemoryCache();
 
+            services.AddHealthChecks().AddCheck<HealthCheckEasynvest>("health_check");
 
+            
         }
 
         
@@ -58,10 +61,13 @@ namespace TesteEasynvest
 
             app.UseAuthorization();
 
+            app.UseHealthChecks("/health");
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
             });
+
+            
         }
     }
 }
