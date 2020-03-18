@@ -2,6 +2,7 @@
 Projeto onde o objetivo e ler os investimentos de um usuário, aplicar regras de cálculos, e dar informações sobre os investimentos, como valor de resgate data de vencimento, etc.
 
 Para acessar o retorno da api (ja vem como página inicial):  /api/investimentos
+
 Para acessar o HealthCheck: /health
 
 Detalhes e linha de pensamento:
