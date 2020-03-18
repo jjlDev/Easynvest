@@ -23,7 +23,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteEasynvest.Api", "Teste
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteEasynvest.Domain.Test", "TesteEasynvest.Domain.Test\TesteEasynvest.Domain.Test.csproj", "{D524C428-3EB1-4796-9BCA-1ED77B3B6A1B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpServiceAgentTest", "HttpServiceAgentTest\HttpServiceAgentTest.csproj", "{A3A8187C-58B9-4430-95C1-919DF294F9CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpServiceAgent.Test", "HttpServiceAgentTest\HttpServiceAgent.Test.csproj", "{A3A8187C-58B9-4430-95C1-919DF294F9CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

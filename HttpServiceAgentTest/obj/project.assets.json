@@ -6357,9 +6357,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\HttpServiceAgentTest\\HttpServiceAgentTest.csproj",
-      "projectName": "HttpServiceAgentTest",
-      "projectPath": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\HttpServiceAgentTest\\HttpServiceAgentTest.csproj",
+      "projectUniqueName": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\HttpServiceAgentTest\\HttpServiceAgent.Test.csproj",
+      "projectName": "HttpServiceAgent.Test",
+      "projectPath": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\HttpServiceAgentTest\\HttpServiceAgent.Test.csproj",
       "packagesPath": "C:\\Users\\Jhow\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Jhow\\source\\repos\\Easynvest\\HttpServiceAgentTest\\obj\\",
       "projectStyle": "PackageReference",
