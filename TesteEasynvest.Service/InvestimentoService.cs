@@ -10,9 +10,9 @@ namespace TesteEasynvest.Service
 
     {
         Carteira carteira;
-        HttpServiceAgent serviceAgent;
+        IHttpServiceAgent serviceAgent;
 
-        public InvestimentoService(Carteira _carteira, HttpServiceAgent _serviceAgent)
+        public InvestimentoService(Carteira _carteira, IHttpServiceAgent _serviceAgent)
         {
             carteira = _carteira;
             serviceAgent = _serviceAgent;

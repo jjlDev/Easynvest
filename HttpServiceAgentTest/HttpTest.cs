@@ -15,7 +15,7 @@ namespace HttpServiceAgentTest
 
         public HttpTest()
         {
-            agent = new HttpServiceAgent(new System.Collections.Generic.List<TesteEasynvest.Domain.Interfaces.IInvestimento>(), new HttpClient());
+            agent = new HttpServiceAgent(new System.Collections.Generic.List<TesteEasynvest.Domain.Interfaces.IInvestimento>());
         }
 
 

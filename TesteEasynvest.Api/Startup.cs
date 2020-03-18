@@ -28,26 +28,26 @@ namespace TesteEasynvest
 
         public IConfiguration Configuration { get; }
 
-        
+
         public void ConfigureServices(IServiceCollection services)
         {
             //adção das injeções de dependencia
             services.AddControllers();
             services.AddTransient<IInvestimentoService, InvestimentoService>();
-            services.AddTransient<HttpClient>();
             services.AddTransient<List<IInvestimento>>();
             services.AddTransient<Carteira>();
-            services.AddTransient<HttpServiceAgent>();
+            services.AddSingleton<IHttpServiceAgent, HttpServiceAgent>();
 
-            
+            //cache de memoria
             services.AddMemoryCache();
 
+            //helth check
             services.AddHealthChecks().AddCheck<HealthCheckEasynvest>("health_check");
 
-            
+
         }
 
-        
+
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
@@ -61,13 +61,14 @@ namespace TesteEasynvest
 
             app.UseAuthorization();
 
+            //seta urld e acesso ao health check
             app.UseHealthChecks("/health");
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
             });
 
-            
+
         }
     }
 }

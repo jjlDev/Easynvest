@@ -7,16 +7,16 @@ using TesteEasynvest.Domain.Responses;
 
 namespace TesteEasynvest.Infra
 {
-    public class HttpServiceAgent
+    public class HttpServiceAgent : IHttpServiceAgent
     {
 
         List<IInvestimento> investimentos;
-        private static HttpClient httpClient;
+        
 
-        public HttpServiceAgent(List<IInvestimento> _investimentos, HttpClient _httpClient)
+        public HttpServiceAgent(List<IInvestimento> _investimentos)
         {
             investimentos = _investimentos;
-            httpClient = _httpClient;
+            
         }
 
 
@@ -25,6 +25,9 @@ namespace TesteEasynvest.Infra
 
             try
             {
+
+                HttpClient httpClient = new HttpClient();
+
                 //requisito os dados da api onde estam os dados dos investimentos
                 HttpResponseMessage responseTesouro = await httpClient.GetAsync("http://www.mocky.io/v2/5e3428203000006b00d9632a");
                 HttpResponseMessage responseRenda = await httpClient.GetAsync("http://www.mocky.io/v2/5e3429a33000008c00d96336");

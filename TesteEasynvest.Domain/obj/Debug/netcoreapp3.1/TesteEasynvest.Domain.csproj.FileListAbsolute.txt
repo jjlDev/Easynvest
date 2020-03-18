@@ -1,7 +1,6 @@
 C:\Users\Jhow\source\repos\Easynvest\TesteEasynvest.Domain\bin\Debug\netcoreapp3.1\TesteEasynvest.Domain.deps.json
 C:\Users\Jhow\source\repos\Easynvest\TesteEasynvest.Domain\bin\Debug\netcoreapp3.1\TesteEasynvest.Domain.dll
 C:\Users\Jhow\source\repos\Easynvest\TesteEasynvest.Domain\bin\Debug\netcoreapp3.1\TesteEasynvest.Domain.pdb
-C:\Users\Jhow\source\repos\Easynvest\TesteEasynvest.Domain\obj\Debug\netcoreapp3.1\TesteEasynvest.Domain.csprojAssemblyReference.cache
 C:\Users\Jhow\source\repos\Easynvest\TesteEasynvest.Domain\obj\Debug\netcoreapp3.1\TesteEasynvest.Domain.AssemblyInfoInputs.cache
 C:\Users\Jhow\source\repos\Easynvest\TesteEasynvest.Domain\obj\Debug\netcoreapp3.1\TesteEasynvest.Domain.AssemblyInfo.cs
 C:\Users\Jhow\source\repos\Easynvest\TesteEasynvest.Domain\obj\Debug\netcoreapp3.1\TesteEasynvest.Domain.dll
