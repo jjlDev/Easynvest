@@ -19,13 +19,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - CrossCutting", "4.1 - CrossCutting", "{C49FB025-8036-4C45-A95C-7FB5845BC6CF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Workspace", "Workspace\Workspace.csproj", "{3E1A0FB3-4F08-4519-83E0-067604D31CA7}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteEasynvest.Api", "TesteEasynvest.Api\TesteEasynvest.Api.csproj", "{09D99412-5A12-4F71-BB41-6464F06E96BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteEasynvest.Domain.Test", "TesteEasynvest.Domain.Test\TesteEasynvest.Domain.Test.csproj", "{D524C428-3EB1-4796-9BCA-1ED77B3B6A1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteEasynvest.Domain.Test", "TesteEasynvest.Domain.Test\TesteEasynvest.Domain.Test.csproj", "{D524C428-3EB1-4796-9BCA-1ED77B3B6A1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpServiceAgentTest", "HttpServiceAgentTest\HttpServiceAgentTest.csproj", "{A3A8187C-58B9-4430-95C1-919DF294F9CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpServiceAgentTest", "HttpServiceAgentTest\HttpServiceAgentTest.csproj", "{A3A8187C-58B9-4430-95C1-919DF294F9CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,10 +43,6 @@ Global
 		{87FC41DF-0A44-4116-8AF2-F6B40F4E55C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87FC41DF-0A44-4116-8AF2-F6B40F4E55C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87FC41DF-0A44-4116-8AF2-F6B40F4E55C0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3E1A0FB3-4F08-4519-83E0-067604D31CA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3E1A0FB3-4F08-4519-83E0-067604D31CA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3E1A0FB3-4F08-4519-83E0-067604D31CA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3E1A0FB3-4F08-4519-83E0-067604D31CA7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{09D99412-5A12-4F71-BB41-6464F06E96BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{09D99412-5A12-4F71-BB41-6464F06E96BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09D99412-5A12-4F71-BB41-6464F06E96BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
